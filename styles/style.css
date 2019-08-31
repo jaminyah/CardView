@@ -4,21 +4,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card-img {
-    width: 100%;
+.card-img-top {
+    width: 98%;
     height: 18vw;
-    object-fit: cover;
-}
-
-.bg-img {
- 
-    min-height: 200px;
+    object-fit: contain;
+    padding: 4px 4px 4px 4px;
     background-position: center;
-    background-color: #ccc;
-    padding: 10px;
 }
 
-.content {
+.card-body {
     padding: 10px;
     text-align: center;
 }
